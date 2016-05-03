@@ -1,0 +1,21 @@
+<h1>Demo#Hello</h1>
+<p>Hello World</p>
+
+
+id=<%= @id %><br>
+next page <%=@page+1 %>
+<br>
+name= <%=@name%>
+
+<% target= "hello" %>
+
+<%="ttttt  #{target}"  %>
+
+<%  @arry.each do |n| %>
+   <br><%=n%>
+<%end%>
+
+<%=link_to("Go to index",{:action =>'index'})%>
+
+
+<%=params.inspect %>

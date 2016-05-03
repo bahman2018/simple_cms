@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: simple_cms_development
+  pool: 5
+  username: bahman2017
+  password: ripterm2017
+  shost: localhost
